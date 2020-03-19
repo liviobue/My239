@@ -1,0 +1,220 @@
+* {
+  font-family: arial, sans-serif;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.icons {
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: balck;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+.pagebanner {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+.logo {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* W3School Navigation
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 24px;
+}
+
+#navbar a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.content {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 80px;
+}
+/* End of Navigation */
+
+#navbar img.sociallinkimg {
+  height: 50px;
+}
+
+#navbar a.sociallink {
+  height: 50px;
+  padding: 7px;
+  float: right;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+#section1 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(186, 226, 255);
+  text-align: center;
+}
+
+#section2 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 143, 173);
+  text-align: center;
+}
+
+#section3 {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  ma
+}
+
+#section6 {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+#section6 p {
+  font-size: 14px;
+}
+
+#section6 h1 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.productpopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 450px;
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    border-style: solid solid solid solid;
+    border-color: grey grey grey rgb(72, 199, 235);
+    border-width: 1px 1px 1px 10px;
+}
+
+.productpopup button {
+  position: absolute;
+  width: auto;
+  border-style: none;
+  padding: 5px;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -95%);
+}
+
+.infolistleft li {
+  list-style: none;
+  text-align: left;
+  margin-left: 125px;
+  margin-top: 10px;
+}
+
+.infolistleft {
+  float: left;
+}
+
+.infolistright li {
+  list-style: none;
+  text-align: left;
+  margin-right: 75px;
+  margin-top: 10px;
+}
+
+.infolistright {
+  float: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-gap: 25px;
+}
+
+.grid img {
+  border: none;
+  max-width: 100%;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
